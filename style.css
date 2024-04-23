@@ -18,7 +18,7 @@ span {
 }
 
 input, button {
-    float: right;
+    /* float: right; */
     margin: 0 10px;
 }
 
@@ -76,4 +76,9 @@ input::placeholder {
 input:focus::placeholder {
     color: white;
     text-align: center;
+}
+
+div.right {
+    display: inline;
+    float: right;
 }
